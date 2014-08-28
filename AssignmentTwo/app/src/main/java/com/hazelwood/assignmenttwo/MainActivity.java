@@ -168,7 +168,7 @@ public class MainActivity extends Activity {
                         _date = news.getString("published_date");
                     }
                     if (news.has("abstract")){
-                        _description = news.getString("abstract");README.txt
+                        _description = news.getString("abstract");
                     }
                     if (news.has("url")){
                         _webURL = news.getString("url");
